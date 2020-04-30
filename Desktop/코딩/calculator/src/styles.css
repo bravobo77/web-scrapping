@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin:0;
+  padding: 0;
+
+}
+
+.calculator {
+  width:502px;
+  padding:20px;
+  background-color: black;
+}
+
+.numberView {
+  width:355px;
+  margin:5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: transparent;
+  border-style: none;
+}
+
+.btn, .reset {
+  all:unset;
+  width:120px;
+  height:60px;
+  font-size: 25px;
+  background-color: #535c68;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+  border:1px solid rgba(0,0,0);
+  color:white;
+}
+
+.reset, .operator {
+  background-color: #f0932b;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+
+
